@@ -46,6 +46,38 @@ LostAndFound/
 ```
 ---
 
+## 🗂️ Struktur Komponen
+
+```
+ LostAndFoundSystem
+│
+├── Barang.java               // Model data untuk laporan barang
+├── LostAndFoundGUI.java      // Main GUI controller (JFrame)
+│
+├──  Panels/
+│   ├── DashboardPanel.java   // Panel menu utama (dashboard)
+│   ├── FormPanel.java        // Panel input barang hilang/temuan
+│   └── TablePanel.java       // Panel untuk melihat dan memfilter daftar barang
+
+```
+---
+
+## 🔌 Interface antar Komponen
+
+```
+Komponen	Bergantung pada	Peran
+LostAndFoundGUI	FormPanel, TablePanel, DashboardPanel	Kontrol utama yang mengatur pergantian antar panel (CardLayout)
+FormPanel	LostAndFoundGUI, Barang	Menginput data lalu memanggil tambahLaporan(barang) di LostAndFoundGUI
+TablePanel	Barang, LostAndFoundGUI	Menyimpan dan menampilkan daftar barang serta menyediakan filter
+DashboardPanel	LostAndFoundGUI	Menampilkan tombol navigasi ke Form dan Tabel
+```
+---
+
+## 🔠 Class dan Interface
+
+```
+```
+
 ## ▶️ Cara Menjalankan
 
 1. **Kompilasi semua file Java**:
