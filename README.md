@@ -1,8 +1,8 @@
 # 📦 ProjectPLBK_Kelompok4
 
 **Nama Anggota :**
-1. **Cut Sula Fhatia Rahma (2208107010048)**
-2. **Muhammad Alvin (2208107010089)**
+1. ###Cut Sula Fhatia Rahma (2208107010048)
+2. ###Muhammad Alvin (2208107010089)
 
 ## 🧾 Lost and Found System
 
@@ -31,7 +31,19 @@
 
 ## 🗂️ Struktur Proyek
 
-LostAndFound/ ├── bin/ # File hasil kompilasi (.class) ├── lib/ # Pustaka eksternal (jika ada) ├── src/ # Berisi source code Java │ ├── img/ # Gambar/icon yang digunakan dalam antarmuka │ ├── Barang.java │ ├── FormPanel.java │ ├── TablePanel.java │ ├── LostAndFoundGUI.java │ └── Main.java └── README.md # Dokumentasi proyek
+```
+LostAndFound/
+├── bin/ # File hasil kompilasi (.class)
+├── lib/ # Pustaka eksternal (jika ada)
+├── src/ # Berisi source code Java 
+    ├── img/ # Gambar/icon yang digunakan dalam antarmuka 
+    ├── Barang.java 
+    ├── FormPanel.java 
+    ├── TablePanel.java
+    ├── LostAndFoundGUI.java
+    └── Main.java
+└── README.md # Dokumentasi proyek
+```
 ---
 
 ## ▶️ Cara Menjalankan
@@ -42,7 +54,7 @@ LostAndFound/ ├── bin/ # File hasil kompilasi (.class) ├── lib/ # Pu
 cd src
 javac /*.java
 ```
-2. **Jalankan program:**:
+2. **Jalankan program:**
 
 ```
 java LostAndFoundGUI
