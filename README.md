@@ -59,6 +59,7 @@ javac /*.java
 ```
 java LostAndFoundGUI
 ```
+---
 
 ## 📋 Contoh Penggunaan
 
@@ -79,8 +80,9 @@ Masukkan kode verifikasi: rahasia123
 Status berhasil diubah menjadi "Sudah Diklaim" dan "Sudah Dikembalikan".
 
 ```
+---
 
-## 📋 Contoh Penggunaan
+## 🤝 Kontribusi
 
 Jika ingin berkontribusi dalam proyek ini:
 1. Fork repository ini.
